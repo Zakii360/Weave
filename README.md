@@ -48,7 +48,7 @@ That's it. Five built-in actions: **say**, **put**, **on**, **load** and many di
 npm install -g weave-lang
 ```
 
-Or grab a ready-to-run binary from the [Releases](../../releases) page - no shell needed.
+Or grab a ready-to-run binary from the <a href="https://github.com/Zakii360/Weave/releases">Releases</a> page - no shell needed.
 
 ## Usage
 
