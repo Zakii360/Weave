@@ -1,14 +1,14 @@
 # Weave 🌿
 
-> Simple scripting that compiles to JavaScript. No fluff, no ceremony.
+> Simple scripting that compiles to JavaScript. Nothing else important.
 
 ---
 
-## The whole language in 30 seconds
+## The whole language in 30 seconds (or whatever speed you read this at.)
 
 ```weave
 // Store a value
-let name = "Mike"
+let name = "Bill"
 
 // Print to the console
 say("Hello, " + name + "!")
@@ -17,7 +17,7 @@ say("Hello, " + name + "!")
 task greet(person) {
   return "Hey, " + person + "!"
 }
-
+// Parameters in functions
 say(greet(name))
 
 // Put text on a webpage
@@ -33,6 +33,9 @@ task handleClick() {
 // Load data from the internet
 let data = load("https://api.example.com/items")
 say(data)
+
+// Ping a website or IP
+ping("https://example.com")
 ```
 
 That's it. Four built-in actions: **say**, **put**, **on**, **load**. The rest is just normal logic.
@@ -79,7 +82,7 @@ Go to **Releases → Assets** and grab:
 
 ## Contributing
 
-See [docs/CONTRIBUTING.md](./docs/CONTRIBUTING.md).
+See <a href="https://github.com/Zakii360/Weave/blob/main/docs/CONTRIBUTING.md">Contributing</a>.
 
 ## License
 
