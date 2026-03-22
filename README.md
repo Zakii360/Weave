@@ -38,7 +38,7 @@ say(data)
 ping("https://example.com")
 ```
 
-That's it. Five built-in actions: **say**, **put**, **on**, **load** and many different possibilities. The rest is just normal logic.
+That's it. Five built-in actions: **say**, **put**, **on**, **load**, **ping** and many different possibilities. The rest is just normal logic.
 
 ---
 
