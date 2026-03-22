@@ -1,0 +1,18 @@
+// Talking to a webpage in Weave
+
+let score = 0
+
+// put(value, "#selector") puts text on the page
+put("Ready to play!", "#message")
+
+// on("#selector", "event", task) listens for clicks
+on("#btn", "click", addPoint)
+
+task addPoint() {
+  score = score + 1
+  put(score, "#score")
+
+  if (score >= 10) {
+    put("You win!", "#message")
+  }
+}

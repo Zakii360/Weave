@@ -1,0 +1,10 @@
+// Hello World in Weave
+
+let name = "world"
+say("Hello, " + name + "!")
+
+task greet(person) {
+  return "Hey, " + person + "!"
+}
+
+say(greet("Claude"))
