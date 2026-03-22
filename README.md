@@ -38,7 +38,7 @@ say(data)
 ping("https://example.com")
 ```
 
-That's it. Four built-in actions: **say**, **put**, **on**, **load**. The rest is just normal logic.
+That's it. Five built-in actions: **say**, **put**, **on**, **load** and many different possibilities. The rest is just normal logic.
 
 ---
 
@@ -48,7 +48,7 @@ That's it. Four built-in actions: **say**, **put**, **on**, **load**. The rest i
 npm install -g weave-lang
 ```
 
-Or grab a ready-to-run binary from the [Releases](../../releases) page — no Node.js required.
+Or grab a ready-to-run binary from the [Releases](../../releases) page - no shell needed.
 
 ## Usage
 
@@ -65,6 +65,7 @@ weave run app.web         # compile and run right now
 | `put(value, "#id")` | Put text on a webpage element |
 | `on("#id", "click", task)` | Run a task when something is clicked |
 | `load("url")` | Fetch data from the internet |
+| `ping(url)` | Request data from an IP or webserver |
 
 ## Everything else
 
